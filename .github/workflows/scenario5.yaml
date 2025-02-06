@@ -1,4 +1,4 @@
-name: Scenario-5
+name: Scenario-05
 on:
   workflow_dispatch:
 jobs:

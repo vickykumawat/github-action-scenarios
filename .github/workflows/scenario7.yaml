@@ -1,4 +1,4 @@
-name: Scenario-7
+name: Scenario-07
 on: 
   schedule:
      - cron: '*/5 * * * *'
