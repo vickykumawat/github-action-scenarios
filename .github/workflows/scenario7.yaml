@@ -1,0 +1,10 @@
+name: Scenario-3
+on: 
+  schedule:​
+     - cron: '* * * * *'​
+
+jobs:
+  cron-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Executing the script"

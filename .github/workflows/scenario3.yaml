@@ -1,5 +1,4 @@
 name: 03 - Scenario
-run-name: 06-Contexts | Debug- ${{ inputs.debug }}
 on:
  #push:
  workflow_dispatch:
@@ -8,7 +7,7 @@ env:
   MY_WORKFLOW_VAR: 'Workflow'
   MY_Overwritten_VAR: 'Workflow'
 jobs:
-  echo-data:
+  Job1:
     runs-on: ubuntu-latest
     env:
       MY_JOB_ENV: 'Job'
