@@ -1,4 +1,4 @@
-name: 02-scenario
+name: Scenario-02
 on:
  #push:
  workflow_dispatch:
