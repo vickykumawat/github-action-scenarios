@@ -1,0 +1,13 @@
+name: 02 - scenario
+on:
+ push:
+   path-ignore:
+      - docs
+      - README.md
+jobs:
+  echo-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: say hello
+        run: echo "Hello, World!"
+  
