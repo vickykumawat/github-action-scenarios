@@ -2,8 +2,8 @@ name: 02-scenario
 on:
  push:
    paths-ignore:
-      - docs
-      - README.md
+      - 'docs/**
+      - 'README.md'
 jobs:
   echo-hello:
     runs-on: ubuntu-latest
