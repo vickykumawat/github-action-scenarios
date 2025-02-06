@@ -1,7 +1,9 @@
 name: 02-scenario
 on:
  push:
-   paths-ignore:
+    branches:
+      - main
+    paths-ignore:
       - 'docs/**'
       - 'README.md'
 jobs:
