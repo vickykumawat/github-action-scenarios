@@ -1,7 +1,7 @@
-name: Scenario-3
+name: Scenario-7
 on: 
-  schedule:​
-     - cron: '* * * * *'​
+  schedule:
+     - cron: '* * * * *'
 
 jobs:
   cron-job:
