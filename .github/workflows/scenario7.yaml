@@ -1,7 +1,7 @@
 name: Scenario-07
 on: 
   schedule:
-     - cron: ' * * * *'
+     - cron: ' */5 * * * *'
 
 jobs:
   cron-job:
